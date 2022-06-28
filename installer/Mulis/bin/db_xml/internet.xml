@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<internet alias="Интернет" settings="50" type="0">
+<node id="0">?</node>
+<node id="1">Нет</node>
+<node id="2">Выделенная линия</node>
+<node id="3">ADSL</node>
+<node id="4">Wi-Fi</node>
+<node id="5">Спутниковый</node>
+<node id="6">Радио</node>
+</internet>

@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="utf-8"?>
+<extension
+	type="module"
+	version="2.5"
+	client="site"
+	method="upgrade">
+	<name>mod_mulis</name>
+	<author>Divasoft, inc.</author>
+	<creationDate>2013</creationDate>
+	<copyright>Copyright (C) Divasoft, inc. All rights reserved.</copyright>
+	<license>GNU General Public License version 2 or later; see LICENSE.txt</license>
+	<authorEmail>develop@divasoft.ru</authorEmail>
+	<authorUrl>www.divasoft.ru</authorUrl>
+	<version>1.0.0</version>
+	<description>Mulis print table</description>
+	<files>
+		<filename module="mod_mulis">mod_mulis.php</filename>
+		<filename>index.html</filename>
+	</files>
+	
+	<help key="JHELP_EXTENSIONS_MODULE_MANAGER_CUSTOM_HTML" />
+	<config>
+		<fields name="params">
+			<fieldset name="basic">
+				<field
+					name="show_pagination"
+					type="radio"
+					label="MULIS_SHOW_PAGINATION"
+					description="MULIS_SHOW_PAGINATION_DESC"
+					default="1">
+					<option
+						value="0">JNo</option>
+					<option
+						value="1">JYes</option>
+				</field>
+				<field
+					name="count_item"
+					type="text"
+					label="MULIS_COUNT_ITEM"
+					description="MULIS_COUNT_ITEM_DESC" />
+			
+                                <field
+					name="order_by"
+					type="list"
+					default=""
+					label="MULIS_ORDER_BY"
+					description="MULIS_ORDER_BY_DESC"
+					>
+					<option value="">NONE</option>
+					<option value="id">ID</option>
+					<option value="date_add">DATE_ADD</option>
+					<option value="date_mod">DATE_MOD</option>
+					<option value="price">PRICE</option>
+                               </field>
+                                <field
+					name="table"
+					type="list"
+					default="11"
+					label="MULIS_TABLE"
+					description="MULIS_TABLE_DESC"
+					>
+					<option value="11">s_kvart</option>
+					<option value="12">s_komtat</option>
+					<option value="13">s_kommers</option>
+					<option value="14">s_garazg</option>
+					<option value="15">s_dom</option>
+                                        
+					<option value="21">r_kvart</option>
+					<option value="22">r_komtat</option>
+					<option value="23">r_kommers</option>
+					<option value="24">r_garazg</option>
+					<option value="25">r_dom</option>
+                               </field>
+                        </fieldset>
+			<fieldset
+				name="advanced">
+				<field
+					name="layout"
+					type="modulelayout"
+					label="JFIELD_ALT_LAYOUT_LABEL"
+					description="JFIELD_ALT_MODULE_LAYOUT_DESC" />
+
+				<field
+					name="moduleclass_sfx"
+					type="text"
+					label="COM_MODULES_FIELD_MODULECLASS_SFX_LABEL"
+					description="COM_MODULES_FIELD_MODULECLASS_SFX_DESC" />
+
+				<field
+					name="cache"
+					type="list"
+					default="1"
+					label="COM_MODULES_FIELD_CACHING_LABEL"
+					description="COM_MODULES_FIELD_CACHING_DESC">
+					<option
+						value="1">JGLOBAL_USE_GLOBAL</option>
+					<option
+						value="0">COM_MODULES_FIELD_VALUE_NOCACHING</option>
+				</field>
+
+				<field
+					name="cache_time"
+					type="text"
+					default="900"
+					label="COM_MODULES_FIELD_CACHE_TIME_LABEL"
+					description="COM_MODULES_FIELD_CACHE_TIME_DESC" />
+				<field
+					name="cachemode"
+					type="hidden"
+					default="static">
+					<option
+						value="static"></option>
+				</field>
+			</fieldset>
+		</fields>
+	</config>
+</extension>

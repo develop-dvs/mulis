@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<metadata>
+	<layout title="MULIS_MENU">
+		<message>MULIS_MENU_DESC</message>
+	</layout>
+	<fields name="request">
+		<fieldset name="request">
+			<field
+				name="tb"
+				type="list"
+				label="MULIS_TABLE"
+				description="MULIS_TABLE_DESC"
+				default="11"
+			>
+					<option value="11">s_kvart</option>
+					<option value="12">s_komtat</option>
+					<option value="13">s_kommers</option>
+					<option value="14">s_garazg</option>
+					<option value="15">s_dom</option>
+                                        
+					<option value="21">r_kvart</option>
+					<option value="22">r_komtat</option>
+					<option value="23">r_kommers</option>
+					<option value="24">r_garazg</option>
+					<option value="25">r_dom</option>
+			</field>
+		</fieldset>
+	</fields>
+</metadata>

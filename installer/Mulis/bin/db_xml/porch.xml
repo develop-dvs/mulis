@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<porch alias="Подъезд" settings="50" type="0">
+<node id="0">?</node>
+<node id="1">Бетон</node>
+<node id="2">Асфальт</node>
+<node id="3">Щебенка</node>
+<node id="4">Грунт</node>
+<node id="5">Другое</node>
+</porch>

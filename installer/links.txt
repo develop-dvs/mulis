@@ -1,0 +1,3 @@
+http://mulis.ru/downloads/0.0.0.1/final/bundles/mulis-0.0.0.1-windows.exe
+http://mulis.ru/downloads/0.0.0.1/final/bundles/mulis-0.0.0.1-jre-windows.exe
+http://mulis.ru/downloads/0.0.0.1/final/bundles/mulis-0.0.0.1.zip

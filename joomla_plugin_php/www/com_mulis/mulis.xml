@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<extension type="component" version="2.5.0" method="upgrade">
+
+	<name>Mulis</name>
+	<author>Divasoft, inc.</author>
+	<creationDate>2013</creationDate>
+	<authorEmail>develop@divasoft.ru</authorEmail>
+	<authorUrl>www.divasoft.ru</authorUrl>
+	<copyright>Copyright (C) Divasoft, inc. All rights reserved.</copyright>
+	<license>GNU General Public License version 2 or later; see LICENSE.txt</license>
+	<version>1.0.0</version>
+
+	<description>Mulis</description>
+
+	<update>
+		<schemas>
+			<schemapath type="mysql">sql/updates/mysql</schemapath>
+		</schemas>
+	</update>
+
+	<files folder="site">
+		<filename>index.html</filename>
+		<filename>mulis.php</filename>
+		<filename>controller.php</filename>
+		<folder>views</folder>
+		<folder>models</folder>
+	</files>
+
+	<administration>
+		<menu>Mulis</menu>
+		<files folder="admin">
+			<filename>index.html</filename>
+			<filename>mulis.php</filename>
+			<folder>sql</folder>
+		</files>
+	</administration>
+
+</extension>

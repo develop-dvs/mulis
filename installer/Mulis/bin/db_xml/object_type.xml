@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<object_type alias="Тип" settings="50" type="0">
+<node id="0">?</node>
+<node id="1">Кирпичный</node>
+<node id="2">Металлический</node>
+<node id="3">Встроенный</node>
+<node id="4">Наземный боксовый</node>
+<node id="5">Подземный</node>
+<node id="6">Многоэтажный</node>
+<node id="7">Паркинг</node>
+</object_type>

@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<deck alias="Полы" settings="-1|50" type="0">
+<node id="0">?</node>
+<node id="1">-</node>
+<node id="2">Дерево</node>
+<node id="3">Подложка</node>
+<node id="4">Линолеум</node>
+<node id="5">Ламинат</node>
+<node id="6">Ковер</node>
+<node id="7">Паркет</node>
+<node id="8">Стяжка</node>
+</deck>

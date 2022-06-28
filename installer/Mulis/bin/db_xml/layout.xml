@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<layout alias="Планировка" settings="50" type="0">
+<node id="0">?</node>
+<node id="1">Смежная</node>
+<node id="2">Изолированная</node>
+<node id="3">Смежно-изол.</node>
+<node id="4">Попарно-смежн.</node>
+<node id="5">Распашенка</node>
+<node id="6">Двухуровневая</node>
+<node id="7">Трамвай</node>
+</layout>

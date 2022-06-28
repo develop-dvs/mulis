@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<windows alias="Окна" settings="-1|50" type="0">
+<node id="0">?</node>
+<node id="1">Пластик</node>
+<node id="2">Дерево</node>
+<node id="3">Другое</node>
+</windows>

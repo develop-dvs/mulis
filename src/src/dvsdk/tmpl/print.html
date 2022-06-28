@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Версия для печати</title>
+        <meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/>
+        <style>
+            .container {padding:0 0 10px 0; border-bottom:1px dashed #000; position:relative;}
+            .map {margin:10px 0;}
+            h1 {font-size:28px; padding:10px 0; border-bottom:1px solid #000;}
+            h2 {font-size:20px; text-decoration:underline;}
+            h3 {font-size:20px; text-transform:uppercase;}
+            p {margin:2px 0;}
+            ul li {list-style:square;}
+            .divider {border-bottom:1px dashed #555; padding:3px 0;}
+            .photo {position:relative;}
+            .photo img {height:350px; width:auto; padding-right:10px; padding-bottom:10px;}
+            .opp {padding:5px; border:1px dotted #000;}
+        </style>
+    </head>
+
+    <body>
+        
+       <div class="container">
+            <h1><!--id--> / <!--date_add--> / <!--date_mod--></h1>
+
+
+            <p><strong>Адрес:</strong> <!--address--></p>
+            <!--map_block--><div class="map">
+                <iframe style="width:520px;height:320px;" frameborder="0" src="http://mulis.ru/maps.php?a=<!--map_link-->"></iframe>
+            </div><!--map_block_end-->
+
+            <p><strong>Ориентир:</strong> <!--loc--></p>
+            <!--loctab_block-->
+            <table style="border-collapse:collapse; margin-left:20px;" cellpadding="0" width="95%">
+                <tbody><!--loctab--></tbody>
+            </table><!--loctab_block_end-->
+
+            <!--<p><strong>Тип недвижимости:</strong> Коммерческая</p>-->
+
+            <!--room_block--><p><strong>Комнат:</strong> <!--room--></p><!--room_block_end-->
+
+            <p><strong>Этаж/Этажей:</strong> <!--floor-->/<!--afloor--></p>
+
+            <!--<p><strong>Тип жилья:</strong> Офис</p>-->
+            <p><strong>Площадь:</strong> <!--s_all--><!--s_live--><!--s_co--><!--s_uch--></p>
+
+            <h3>Цена: <!--price--> руб.</h3>
+            <!--add_block-->
+            <h2>Дополнительная информация:</h2>
+            <ul>
+		<!--date_info-->
+            </ul><!--add_block_end-->
+
+            <!--contact_block--><h2>Контактная информация:</h2>
+            <p><strong>Риэлторское агенство:</strong> <!--a_name--></p>
+            <p><strong>Телефон:</strong> <!--a_phone--></p><!--contact_block_end-->
+			
+            <!--comment_block--><h2>Описание:</h2>
+            <div class="opp"><!--comment--></div><!--comment_block_end-->
+            
+            <!--comment_private_block--><h2>Описание (Свое):</h2>
+            <div class="opp"><!--comment_private--></div><!--comment_private_block_end-->
+            
+            <!--photo_block--><h2>Фото:</h2>
+            <div class="photo">
+                <img src="<!--photo-->">
+            </div><!--photo_block_end-->
+
+        </div>
+    </body>
+</html>

@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<arenda alias="Месяцев" settings="50" type="10">
+<node id="0">1</node>
+<node id="1">2</node>
+<node id="2">3</node>
+<node id="3">4</node>
+<node id="4">5</node>
+<node id="5">6</node>
+<node id="6">7</node>
+<node id="7">8</node>
+<node id="8">9</node>
+<node id="9">10</node>
+<node id="10">11</node>
+</arenda>

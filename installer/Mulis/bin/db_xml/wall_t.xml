@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<wall_t alias="Материал стен" settings="50" type="0">
+<node id="0">?</node>
+<node id="1">Бревно</node>
+<node id="2">Деревянный</node>
+<node id="3">Карк. засып.</node>
+<node id="4">Кирпичный</node>
+<node id="5">Комбинированный</node>
+<node id="6">Монолит</node>
+<node id="7">Панельный</node>
+<node id="8">Пеноблок</node>
+<node id="9">Шлакоблочный</node>
+<node id="10">Камень</node>
+<node id="11">Брус</node>
+<node id="12">Блочный</node>
+<node id="13">Саман</node>
+</wall_t>

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<foundation alias="Фундамент" settings="50" type="0">
+<node id="0">?</node>
+<node id="1">Сплошной</node>
+<node id="2">Ленточный</node>
+<node id="3">Столбчатый</node>
+<node id="4">Свайный</node>
+<node id="5">Нет</node>
+</foundation>

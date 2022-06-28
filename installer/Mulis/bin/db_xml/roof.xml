@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<roof alias="Крыша" settings="50" type="0">
+<node id="0">?</node>
+<node id="1">Керамическая черепица</node>
+<node id="2">Гибкая черепица</node>
+<node id="3">Сланцевая кровля</node>
+<node id="4">Металлочерепица</node>
+<node id="5">Цементно-песчаная черепица</node>
+<node id="6">Композитная черепица</node>
+<node id="7">Волновые битумные листы</node>
+<node id="8">Металл. фальцевая кровля</node>
+<node id="9">Металл. профилир. кровля</node>
+<node id="10">Полимер-песчаная черепица</node>
+<node id="11">Природные кровли</node>
+<node id="12">Шифер</node>
+<node id="13">Нет</node>
+</roof>

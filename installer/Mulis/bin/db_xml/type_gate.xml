@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<type_gate alias="Тип ворот" settings="50" type="0">
+<node id="0">?</node>
+<node id="1">Распашные</node>
+<node id="2">Раздвижные</node>
+<node id="3">Складывающиеся</node>
+<node id="4">Рулонные</node>
+<node id="5">Подъемно-поворотные</node>
+<node id="6">Стальные однослойные</node>
+<node id="7">Откатные</node>
+<node id="8">Другое</node>
+</type_gate>
